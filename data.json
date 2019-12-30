@@ -8,7 +8,7 @@
         "technologies":["HTML", "CSS", "JavaScript", "JQuery", "OOP JS"],
         "live_link":"https://mannig1224.github.io/techdegree-project-4/",
         "github_link":"https://github.com/mannig1224/techdegree-project-4",
-        "image_urls":["/images/project4_1.png"]
+        "image_urls":["/images/project4_1.png", "/images/project4_2.png", "/images/project4_3.png", "/images/project4_4.png"]
         },
         {
         "id":1,
@@ -17,7 +17,7 @@
         "technologies":["HTML", "CSS", "JavaScript", "JQuery"],
         "live_link":"https://mannig1224.github.io/techdegree-project-2/",
         "github_link":"https://github.com/mannig1224/techdegree-project-2",
-        "image_urls":["/images/project2_1.png"]
+        "image_urls":["/images/project2_1.png", "/images/project2_2.png", "/images/project2_3.png"]
         },
         {
         "id":2,
@@ -26,7 +26,7 @@
         "technologies":["HTML", "CSS", "JavaScript", "JQuery"],
         "live_link":" https://mannig1224.github.io/techdegree-project-3/",
         "github_link":"https://github.com/mannig1224/techdegree-project-3",
-        "image_urls":["/images/project3_1.png"]
+        "image_urls":["/images/project3_1.png", "/images/project3_2.png", "/images/project3_3.png", "/images/project3_4.png"]
         },
         {
         "id":3,
@@ -44,7 +44,7 @@
         "technologies":["HTML", "CSS", "JavaScript", "JQuery", "AJAX"],
         "live_link":"https://mannig1224.github.io/techdegree-project-5/",
         "github_link":"https://github.com/mannig1224/techdegree-project-5",
-        "image_urls":["/images/project5_1.png"]
+        "image_urls":["/images/project5_1.png", "/images/project5_2.png", "/images/project5_3.png"]
         }
         
     ]
