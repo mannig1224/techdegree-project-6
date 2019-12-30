@@ -9,13 +9,13 @@ app.use('/static', express.static('public')); // using the public folder at the 
 // require all javascript routes
 const homeRoute = require('./routes');
 const aboutRoute = require('./routes/about');
-//const projectsRoute = require('./routes/projects');
+const projectsRoute = require('./routes/projects');
 
 
 // use routes in pair with there javascript
 app.use(homeRoute);
 app.use('/about', aboutRoute);
-//app.use('/projects', projectsRoute);
+app.use('/projects', projectsRoute);
 
 
 app.listen(3000, () => {

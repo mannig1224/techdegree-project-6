@@ -1,14 +1,23 @@
 const express = require('express');
 const router = express.Router();
-const { projects } = require('../data.json');
+const project = require('../data.json').projects;
 
 // requesting the id sent from index.pug
-router.get('/', (req, res) => {
+router.get('/:id', (req, res) => {
 
-  const projectData; // this holds nothing yet but we will want to render the view with the given data, atleast thats what i thnk
-  res.render('project', projectData);
+  const { id } = req.params;
+  const { project_name } = project[id];
+  const { description } = project[id];
+  const { technologies } = project[id];
+  const { live_link } = project[id];
+  const { github_link } = project[id];
+  const { image_urls } = project[id];
+  // sending the data to project.pug
+  const projectTemplateData = { id, project_name, description, technologies, live_link, github_link, image_urls};
+  res.render('project', projectTemplateData);
 });
 
 
 
 module.exports = router;
+
