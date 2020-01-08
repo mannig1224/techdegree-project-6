@@ -18,7 +18,8 @@ app.use('/projects', projectsRoute);
 
 // create a new error message for when the user tries to enter an unknown page
 app.use((req, res, next) => {
-    const err = new Error('Not found');
+    const err = new Error('Page not found!');
+    console.log("Oops! The page you are looking for cannot be found.");
     err.status = 404;
     next(err);
   });
