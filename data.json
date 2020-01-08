@@ -4,7 +4,7 @@
         {
         "id":0,
         "project_name":"OOP Game Show App",
-        "description":"A web app with .",
+        "description":"A web app using Object-Oriented design to select a random, hidden phrase.",
         "technologies":["HTML", "CSS", "JavaScript", "JQuery", "OOP JS"],
         "live_link":"https://mannig1224.github.io/techdegree-project-4/",
         "github_link":"https://github.com/mannig1224/techdegree-project-4",
@@ -13,7 +13,7 @@
         {
         "id":1,
         "project_name":"Pagination and Filtering",
-        "description":"A program that creates a page for a long list of students by dividing them into blocks of 10.",
+        "description":"A program that creates a page for a long list of students by dividing them into blocks of 10 and displaying them in multiple pages.",
         "technologies":["HTML", "CSS", "JavaScript", "JQuery"],
         "live_link":"https://mannig1224.github.io/techdegree-project-2/",
         "github_link":"https://github.com/mannig1224/techdegree-project-2",
@@ -31,7 +31,7 @@
         {
         "id":3,
         "project_name":"Random Quote Generator",
-        "description":"A program that displays a randomly selected quote and background-color each time the user clicks a button or every 20 seconds.",
+        "description":"A program that displays a randomly selected quote and background-color each time the user clicks a button.",
         "technologies":["HTML", "CSS", "JavaScript"],
         "live_link":"https://mannig1224.github.io/techdegree-project-1/",
         "github_link":"https://github.com/mannig1224/techdegree-project-1",
@@ -40,8 +40,8 @@
         {
         "id":4,
         "project_name":"Public API Requests",
-        "description":"Is a program that displays an employee directory that obtains the data of each one from the third-party API(Application Programming Interface) The Random User Generator.",
-        "technologies":["HTML", "CSS", "JavaScript", "JQuery", "AJAX"],
+        "description":"A program that displays an employee directory obtained from a third-party API - The Random User Generator using Javascript Fetch API.",
+        "technologies":["HTML", "CSS", "JavaScript", "JQuery", "AJAX", "Fetch"],
         "live_link":"https://mannig1224.github.io/techdegree-project-5/",
         "github_link":"https://github.com/mannig1224/techdegree-project-5",
         "image_urls":["/images/project5_1.png", "/images/project5_2.png", "/images/project5_3.png"]
