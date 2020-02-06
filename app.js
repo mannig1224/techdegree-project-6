@@ -1,5 +1,6 @@
 const express = require('express'); // We need to require the express module
 const http = require('http');
+const PORT = process.env.PORT || 3000;
 
 const app = express(); // starting our express app
 app.set('view engine', 'pug'); // setting to use pug
@@ -29,6 +30,6 @@ app.use((err, req, res, next) => {
     console.log("Oops! The page you are looking for cannot be found.");
 });
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('The application is running on localhost:3000!');
 });
