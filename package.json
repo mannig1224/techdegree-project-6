@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A portfolio of all of our projects",
   "main": "app.js",
+  "engines": {
+    "node": "12.13.1",
+    "npm": "6.13.6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
